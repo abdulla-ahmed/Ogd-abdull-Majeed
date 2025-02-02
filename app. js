@@ -1,17 +1,28 @@
-// Load the animation
 const animationContainer = document.getElementById('animation-container');
-const animationData = {
-  container: animationContainer,
-  renderer: 'svg',
-  loop: false,
-  autoplay: true,
-  path: 'Medical Shield.json' // Path to your JSON animation file
-};
+  if (!animationContainer) {
+    console.error('Animation container not found!');
+  }
 
-const anim = lottie.loadAnimation(animationData);
+  const animationData = {
+    container: animationContainer,
+    renderer: 'svg',
+    loop: false,
+    autoplay: true,
+    path: 'https://raw.githubusercontent.com/abdulla-ahmed/pic/refs/heads/main/Medical%20app.json'
+  };
 
-// When the animation completes, show the main content
-anim.addEventListener('complete', () => {
-  animationContainer.style.display = 'none'; // Hide the animation container
-  document.querySelector('.container').style.display = 'block'; // Show the main content
-});
+  const anim = lottie.loadAnimation(animationData);
+
+  anim.addEventListener('DOMLoaded', () => {
+    console.log('Animation DOM loaded!');
+  });
+
+  anim.addEventListener('complete', () => {
+    console.log('Animation complete!');
+    animationContainer.style.display = 'none';
+    document.querySelector('.container').style.display = 'block';
+  });
+
+  anim.addEventListener('data_failed', () => {
+    console.error('Failed to load animation data!');
+  });
