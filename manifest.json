@@ -3,6 +3,7 @@
   "name": "my OGD",
   "short_name": "OGD",
   "start_url": "/",
+  "scope": "/",
   "display": "browser",
   "background_color": "#ffffff",
   "theme_color": "#000000",
