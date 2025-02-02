@@ -1,7 +1,7 @@
 {
   "name": "my OGD",
   "short_name": "OGD",
-  "start_url": "https://abdulla-ahmed.github.io/Ogd-abdull-Majeed/",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
