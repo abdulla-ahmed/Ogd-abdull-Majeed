@@ -4,7 +4,7 @@
   "short_name": "OGD",
   "start_url": "/",
   "scope": "/",
-  "display": "browser",
+  "display": "minimal-ui",
   "background_color": "#ffffff",
   "theme_color": "#000000",
   "icons": [
