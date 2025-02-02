@@ -2,7 +2,7 @@
     "name": "my OGD",
     "short_name": "OGD",
     "description": "A Progressive Web App for generating OGD reports.",
-    "start_url": "/",
+    "start_url": "./index.html",
     "scope": "/",
     "display": "standalone",
     "background_color": "#ffffff",
