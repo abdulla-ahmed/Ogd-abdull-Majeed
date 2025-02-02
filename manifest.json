@@ -1,5 +1,5 @@
 {
-    "name": "My OGD",
+    "name": "HK OGD",
     "short_name": "OGD",
     "description": "A Progressive Web App for generating OGD reports.",
     "start_url": "./index.html",
