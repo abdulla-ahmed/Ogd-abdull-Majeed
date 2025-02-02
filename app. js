@@ -1,0 +1,17 @@
+// Load the animation
+const animationContainer = document.getElementById('animation-container');
+const animationData = {
+  container: animationContainer,
+  renderer: 'svg',
+  loop: false,
+  autoplay: true,
+  path: 'https://raw.githubusercontent.com/abdulla-ahmed/pic/refs/heads/main/Medical%20app.json' // Path to your JSON animation file
+};
+
+const anim = lottie.loadAnimation(animationData);
+
+// When the animation completes, show the main content
+anim.addEventListener('complete', () => {
+  animationContainer.style.display = 'none'; // Hide the animation container
+  document.querySelector('.container').style.display = 'block'; // Show the main content
+});
