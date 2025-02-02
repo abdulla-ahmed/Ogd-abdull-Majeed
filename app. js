@@ -8,7 +8,7 @@ const animationContainer = document.getElementById('animation-container');
     renderer: 'svg',
     loop: false,
     autoplay: true,
-    path: 'https://raw.githubusercontent.com/abdulla-ahmed/pic/refs/heads/main/Medical%20app.json'
+    path: 'Medical Shield.json'
   };
 
   const anim = lottie.loadAnimation(animationData);
