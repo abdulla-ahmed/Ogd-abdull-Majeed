@@ -5,7 +5,7 @@ const animationData = {
   renderer: 'svg',
   loop: false,
   autoplay: true,
-  path: '/Medical Shield.json' // Path to your JSON animation file
+  path: 'Medical Shield.json' // Path to your JSON animation file
 };
 
 const anim = lottie.loadAnimation(animationData);
