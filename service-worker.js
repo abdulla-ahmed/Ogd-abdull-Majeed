@@ -1,8 +1,7 @@
 const CACHE_NAME = 'HK-OGD-v1';
 const ASSETS_TO_CACHE = [
   '/',
-  './index.html',
-  '/styles.css',
+  '/index.html',
   '/app.js',
   'https://raw.githubusercontent.com/abdulla-ahmed/pic/refs/heads/main/Medical%20app.json', // Animation file
   '/icons/icon-192x192.png',
