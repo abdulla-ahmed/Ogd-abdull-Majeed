@@ -378,6 +378,24 @@
     </div>
 
  <script>
+// Load the animation
+        const animationContainer = document.getElementById('animation-container');
+        const animationData = {
+            container: animationContainer,
+            renderer: 'svg',
+            loop: false,
+            autoplay: true,
+            path: 'https://raw.githubusercontent.com/abdulla-ahmed/pic/refs/heads/main/Medical%20app.json' // Path to your JSON animation file not necessary to be a distfile.You can't do it by putting it in the same directory of the html 
+        };
+
+        const anim = lottie.loadAnimation(animationData);
+
+        // When the animation completes, show the main content
+        anim.addEventListener('complete', () => {
+            animationContainer.style.display = 'none'; // Hide the animation container
+            document.getElementsByClassName('container')[0].style.display = 'block';// Corrected selector // Show the main content // because container is not id is a class therefore can not call by callelementsby id eather use call by class or use document.querySelector('.container').style.display = 'block';
+        });
+     
     
     // Retrieve the current serial number from localStorage or initialize it to 1
     let serialNumber = parseInt(localStorage.getItem('pdfSerialNo')) || 1;
