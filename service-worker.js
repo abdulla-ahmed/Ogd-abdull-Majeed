@@ -3,7 +3,7 @@ const ASSETS_TO_CACHE = [
   '/',
   '/index.html',
   '/app.js',
-  'https://raw.githubusercontent.com/abdulla-ahmed/pic/refs/heads/main/Medical%20app.json', // Animation file
+  '/Medical Shield.json', // Animation file
   '/images/icon-192x192.png',
   '/images/icon-512x512.png'
 ];
