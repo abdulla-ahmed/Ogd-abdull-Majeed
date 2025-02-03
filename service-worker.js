@@ -2,10 +2,10 @@ const CACHE_NAME = 'HK-OGD-v1';
 const ASSETS_TO_CACHE = [
   '/',
   '/Ogd-abdull-Majeed/index.html',
-  '/app.js',
-  '/Medical Shield.json', // Animation file
-  '/images/icon-192x192.png',
-  '/images/icon-512x512.png'
+  '/Ogd-abdull-Majeed/app.js',
+  '/Ogd-abdull-Majeed/Medical Shield.json', // Animation file
+  '/Ogd-abdull-Majeed/images/icon-192x192.png',
+  '/Ogd-abdull-Majeed/images/icon-512x512.png'
 ];
 
 // Install event: Cache assets
