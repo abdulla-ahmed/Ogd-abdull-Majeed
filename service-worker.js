@@ -1,7 +1,7 @@
 const CACHE_NAME = 'HK-OGD-v1';
 const ASSETS_TO_CACHE = [
   '/',
-  '/index.html',
+  '/Ogd-abdull-Majeed/index.html',
   '/app.js',
   '/Medical Shield.json', // Animation file
   '/images/icon-192x192.png',
