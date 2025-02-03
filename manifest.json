@@ -2,7 +2,7 @@
   "name": "HK OGD",
   "short_name": "OGD",
   "start_url": "/Ogd-abdull-Majeed/", // Use the subdirectory path
-  "scope": "/Ogd-abdull-Majeed/",     // Controls all subpaths
+       // Controls all subpaths
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#000000",
