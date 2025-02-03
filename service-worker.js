@@ -1,9 +1,9 @@
 const CACHE_NAME = 'HK-OGD-v1';
 const ASSETS_TO_CACHE = [
   '/',
-  '/index.html',
-  '/app.js',
-  '/Medical Shield.json', // Animation file
+  'index.html',
+  'app.js',
+  'Medical Shield.json', // Animation file
   '/images/icon-192x192.png',
   '/images/icon-512x512.png'
 ];
