@@ -17,9 +17,12 @@ self.addEventListener('install', (event) => {
 });
 
 self.addEventListener('fetch', (event) => {
-  event.respondWith(
-    caches.match(event.request).then((response) => {
-      return response || fetch(event.request);
-    })
-  );
-});
+    event.respondWith(
+      caches.match(event.request).then((response) => {
+        return response || fetch(event.request).catch(() => {
+          // Fallback behavior if both cache and network fail
+          return caches.match('/offline.html'); // Serve an offline page
+        });
+      })
+    );
+  });
