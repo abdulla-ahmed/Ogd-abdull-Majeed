@@ -6,6 +6,9 @@
     <title>OGD Report</title>
     <link rel="manifest" href="manifest.json">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.4/lottie.min.js"></script>
+  <script src="app.js"></script>
+  
     <style>
        .colored-header {
       background-color: #BDB5D5; /* Set the background color */
@@ -394,10 +397,9 @@
             
         </form>
     </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.4/lottie.min.js"></script>
-  <script src="app.js"></script>
-  <script>
-    if ('serviceWorker' in navigator) {
+
+ <script>
+if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/service-worker.js')
         .then((registration) => {
           console.log('Service Worker registered with scope:', registration.scope);
@@ -405,10 +407,7 @@
         .catch((error) => {
           console.error('Service Worker registration failed:', error);
         });
-    }
-  </script>
- <script>
-
+}
 
      // Retrieve the current serial number from localStorage or initialize it to 1
     let serialNumber = parseInt(localStorage.getItem('pdfSerialNo')) || 1;
