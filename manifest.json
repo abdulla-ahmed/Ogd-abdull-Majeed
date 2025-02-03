@@ -18,3 +18,9 @@
     }
   ]
 }
+{
+  "related_applications": [{
+    "platform": "play",
+    "id": "io.github.abdulla_ahmed.twa" // Replace with your app's package name
+  }]
+}
