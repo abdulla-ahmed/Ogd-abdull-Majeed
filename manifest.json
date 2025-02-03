@@ -17,10 +17,5 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ],
-  "related_applications": [{
-    "platform": "play",
-    "id": "io.github.abdulla_ahmed.twa" // Replace with your app's package name
-  }],
-  "prefer_related_applications": true // Optional: Prioritize native app
-}
+  ]
+  }
