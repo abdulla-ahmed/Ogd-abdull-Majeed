@@ -10,7 +10,7 @@ const animationData = {
   renderer: 'svg',
   loop: false,
   autoplay: true,
-  path: '/Medical-Shield.json' // Updated path (no spaces)
+  path: 'Medical Shield.json' // Updated path (no spaces)
 };
 
 const anim = lottie.loadAnimation(animationData);
