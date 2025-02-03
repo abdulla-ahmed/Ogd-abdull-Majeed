@@ -16,5 +16,6 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ], "related_applications": [{ "platform": "play", "id": "io.github.abdulla_ahmed.twa" // }]
+  ], "related_applications": [{ "platform": "play", "id": "io.github.abdulla_ahmed.twa" 
+  }]
 }
