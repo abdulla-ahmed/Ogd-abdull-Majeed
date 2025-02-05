@@ -439,7 +439,7 @@ function storeImageInLocalStorage(url, key) {
 }
 
 storeImageInLocalStorage("https://raw.githubusercontent.com/abdulla-ahmed/pic/refs/heads/main/signature_scanner_31_29_24.png", 'sigimg');
-storeImageInLocalStorage("https://abdulla-ahmed.github.io/Ogd-abdull-Majeed/majeedO.png", 'watermarkimg');
+storeImageInLocalStorage("https://abdulla-ahmed.github.io/Ogd-abdull-Majeed/majeedO.png", 'watermarkimgM');
 storeImageInLocalStorage("https://raw.githubusercontent.com/abdulla-ahmed/pic/refs/heads/main/dr_hayder_kawaz.png", 'treeimg');
    
     const imageUpload = document.getElementById('image-upload');
@@ -580,15 +580,15 @@ if (treeimg) {
 }
 
        
-   const watermarkimg = localStorage.getItem('watermarkimg');
-if (watermarkimg) {
+   const watermarkimgM = localStorage.getItem('watermarkimgM');
+if (watermarkimgM) {
     const fromDiv = document.createElement('div');
     fromDiv.style.textAlign = 'center';
     fromDiv.style.marginTop = '-450px';
     fromDiv.style.position = 'absolute'; // Ensure it's within a relatively positioned container
     
     const img = document.createElement('img'); // Correct usage of 'img'
-    img.src = watermarkimg;
+    img.src = watermarkimgM;
     img.style.width = '450px'; // Adjust the size as needed
     img.style.position = 'relative'; // Adjust based on desired positioning
     img.style.top = '-150px'; // Added 'px' for units
