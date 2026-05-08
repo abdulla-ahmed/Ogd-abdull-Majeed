@@ -217,7 +217,7 @@
 
       
         .container {
-            display: none;
+            display: block;
             max-width: 800px;
             margin: auto;
             border: 1px solid #ccc;
@@ -238,6 +238,7 @@
             padding: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
+            box-sizing: border-box;
         }
         #images-container {
         display: flex;
@@ -276,9 +277,9 @@
 </head>
 <body>
    <div id="animation-container"></div>
-    <div class="container"style="display: none">
+    
         <h2 style="text-align: center;">OesophagoGastroDuodenoscopy Report</h2>
-        <form id="data-form">
+        <div class="container"> <form id="data-form">
             <!-- Basic Patient Information -->
             <div class="form-group">
                 <label for="date">Date</label>
